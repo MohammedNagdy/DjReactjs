@@ -1,0 +1,47 @@
+h3{
+	color: black;
+	font-size: 34px;
+	margin-bottom: 34px;
+	border-bottom: 4px solid #000000;
+	padding-bottom: 15px;
+}
+p{
+	color: black;
+	font-size: 15px;
+}
+h4{
+	color: black;
+	font-size: 15px;
+	text-transform: uppercase;;
+	margin-top: 15px;
+	font-weight: 700;
+}
+
+.photo {
+	height: 100px;
+	width: 200px;
+}
+
+.main, .album-poster{
+	padding: 40px 25px;
+}
+
+.marg {
+	margin-bottom: 20px;
+
+}
+.album-poster {
+	position: relative;
+	display: block;
+	border-radius: 7px;
+	overflow: hidden;
+	box-shadow: 0 15px 35px  #3B0541;
+	transition: all ease 0.4s;
+}
+
+.album-poster:hover{
+	box-shadow: none;
+	transition: scale(0.98) translateY(5px);
+}
+
+

@@ -1,0 +1,5 @@
+Components:
+-Navbar component
+-Booking component (POST)
+-Music display component (GET)
+-Events display compenent (GET)
